@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{mnc2015}
+S.R. Bolding, M.~Cleveland, and J.E. Morel.
+\newblock {A High-Order Low-Order Algorithm with Exponentially-Convergent Monte
+  Carlo for Thermal Radiative Transfer}.
+\newblock M\&C, {2015}.
+
+\bibitem{ans_2014}
+S.R. Bolding and J.E. Morel.
+\newblock {A High-Order Low-Order Algorithm with Exponentially-Convergent Monte
+  Carlo for $k$-Eigenvalue problems}.
+\newblock ANS Winter Meeting, {2014}.
+
+\bibitem{ksuthesis}
+{S.R. Bolding}.
+\newblock {Design of a Neutron Spectrometer and Simulations of Multiplicity
+  Distributions with Nuclear Data Perturbations}.
+\newblock Master's thesis, {Kansas State University}, {Manhattan, KS}, {2013}.
+
+\bibitem{nubar}
+S.R. Bolding.
+\newblock {Simulations of Multiplicity Distributions with Perturbations to
+  Nuclear Data}.
+\newblock ANS Winter Meeting, 2013.
+
+\bibitem{ieeenss}
+B.W. Cooper, D.S. McGregor, S.L. Bellinger, S.R. Bolding, and J.K. Shultis.
+\newblock {Portable Neutron Energy Spectrometer Utilizing Microstructured
+  Semiconductor Neutron Detectors}.
+\newblock Presented at IEEE NSS/MIC Conference, 2012.
+
+\bibitem{nelson}
+K.A. Nelson, S.R. Bolding, A.J. Schmidt, J.K. Shultis, C.D. Wayant, and D.S.
+  McGregor.
+\newblock {A simulation of a layered 6Li foil multi-wire proportional counter}.
+\newblock 2012.
+
+\bibitem{kennard}
+K.~Callender, S~Heider, S.R. Bolding, and W.L. Dunn.
+\newblock {A Tiered-Filter Approach to the Signature-Based Radiation Scanning
+  Technique for Standoff Detection of Nitrogen-Rich Explosives}.
+\newblock Presented at IRRMA 8, 2011.
+
+\end{thebibliography}

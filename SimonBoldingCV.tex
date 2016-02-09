@@ -1,0 +1,220 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+%
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\robustify\cftdotfill
+
+\makeatletter
+\renewcommand\@biblabel[1]{#1.}
+\makeatother
+
+
+%-----------------------------------------------------------
+%Edit these values as you see fit
+
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+    \end{shaded}
+  }\vspace{-5pt}
+}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{\hspace{-0.341in}#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+\newcommand{\resminorheading}[2]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{\hspace{-0.341in}#1} & #2 \\
+\end{tabular*}\vspace{-1.6pt}}
+
+\begin{document}
+
+\begin{center}
+\begin{tabular*}{3in}{c@{\extracolsep{\fill}}r}
+\textbf{\huge Simon Bolding} \\
+\textbf{\today} \\
+Ph.D. Student at Texas A\&M University \\ simonrbolding@gmail.com 
+\end{tabular*}
+\end{center}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item[] \ressubheading{Texas A\&M University\vspace{0.05in}}{College Station, TX}{Ph.D. Nuclear Engineering}{2013--Current}
+
+	\begin{itemize}
+
+		\resitem{\textbf{Department of Energy Nuclear Energy University Program Fellowship}, 3 years}
+
+		\resitem{Emphasis on hybrid deterministic-Monte Carlo transport methods with finite elements for thermal radiative transfer.  Developed in  C++ research code.}
+		\resitem{GPA: 4.0, Advisor: Jim E. Morel, Projected Graduation: Dec. 2016}
+
+    %    \resitem{Committee: Prof. Peter Frazier (advisor), Prof. Steve Strogatz, Prof. Bart Selman, Dr. Zhong Wang}
+
+	\end{itemize}
+
+\item[]
+
+	\ressubheading{Kansas State University\vspace{0.05in}}{Manhattan, KS}{M.S. Nuclear Engineering}{2011--2013}
+
+	\begin{itemize}
+	
+		\resitem{Thesis on two applications of Monte Carlo simulations: design and proof of concept of a neutron spectrometer and validation of nuclear data with subcritical multiplicity experiments}	
+\resitem{GPA: 4.0, Advisor: Ken Shultis}
+	\end{itemize}
+	\ressubheading{\vspace{-0.31in}}{}{B.S. Mechanical Engineering}{2007--2011}
+	\begin{itemize}
+	           \resitem{Graduated Summe Cum Laude with physics minor and nuclear engineering option}
+		\resitem{GPA: 4.0}
+	\end{itemize}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Technical Training}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item[]
+\resminorheading{Languages}{C++, Python, Fortran 90/77}
+\item[]
+\resminorheading{Programs}{ MCNP5/6, Matlab, Excel, Solidworks, \LaTeX}
+\item[]
+\resminorheading{Development Tools}{Unix,  TotalView, Visual Studio, Git, CMake, Valgrind, UML}
+\item[]
+\resminorheading{Relevant Coursework}{Deterministic \& Monte Carlo Transport, Finite Element Methods,}
+\resminorheading{}{ Multiphysics Coupling, Statistics \& Uncertainty Quantification,}
+\resminorheading{}{ Engineering Analysis, Finite Differences, Parallel Algorithms}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Awards}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-2pt}
+	\begin{center}\begin{tabular*}{6.6in}{l@{\extracolsep{\fill}}r}
+		\multicolumn{2}{c}{Department of Energy Nuclear Energy University Program Fellowship \cftdotfill{\cftdotsep}2012-2015}\\
+        \multicolumn{2}{c}{ANS Graduate Scholarship (\$3 000) \cftdotfill{\cftdotsep} 2011, 2012}\\
+        \multicolumn{2}{c}{Outstanding Senior of KSU MNE Department Class of 2011 \cftdotfill{\cftdotsep} 2011}\\
+        \multicolumn{2}{c}{Sigma Pi Sigma - Physics Honor Society  \cftdotfill{\cftdotsep} 2011}\\
+        \multicolumn{2}{c}{Alpha Nu Sigma - Nuclear Engineering Honor Society  \cftdotfill{\cftdotsep} 2011}\\
+		\vphantom{E}
+\end{tabular*}
+\end{center}\vspace*{-16pt}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item[]
+\ressubheading{Los Alamos National Laboratory: CCS-2}{Los Alamos, NM}{Graduate Intern}{Summer 2014}
+	\begin{itemize}
+	\resitem{Extended steady-state neutronics hybrid-Monte Carlo research code to handle time-dependent, grey \textbf{thermal radiative transfer} problems}
+	\resitem{Developed methodology for thermal radiation physics, implemented non-linear solution method, and learned \textbf{C++ templates} and software development tools such as CMake and simple XML parsing}
+	\resitem{Work resulted in M\&C conference paper, submitted for 2015}
+	\end{itemize}
+ \ressubheading{Los Alamos National Laboratory: XCP-7}{Los Alamos, NM}{Graduate Intern}{Summer 2013}
+	\begin{itemize}
+	\resitem{Determining a spatially dependent cost function in \textbf{MCNP6} for weight-independent \textbf{variance reduction techniques}}
+	\resitem{Developed and \textbf{integrated code} in the MCNP6 source}
+	\resitem{Understanding of first and second moments of tally scores for importance map and high-resolution CPU clock timing modules}
+	\end{itemize}
+\ressubheading{Los Alamos National Laboratory: XCP-7}{Los Alamos, NM}{Graduate Intern}{Summer 2012}
+	\begin{itemize}
+	\resitem{Perturbing nuclear data on an energy dependent basis to correct bias by \textbf{MCNP} for \textbf{subcritical multiplicity simulations}}
+	\resitem{Wrote in-depth \textbf{Python} modules for modifying Data that \textbf{extended object-oriented framework} for nuclear data at LANL}
+	\resitem{Applied \textbf{statistical sampling methods} for generating new data based on ENDF covariance matrices}
+	\end{itemize}
+\ressubheading{Kansas State University}{Manhattan, KS}{Graduate Research Assistant}{01/2012--05/2013}
+	\begin{itemize}
+	\resitem{The Semiconductor Materials and Radiological Technologies research group}
+	\resitem{Perform MCNP simulations as needed by the group for design and optimization of detectors, using \textbf{Python} scripts to automate optimizations}
+	\resitem{Modeling of a Neutron Spectrometer and detection of nuclear devices from a distance, requiring application and automation of  \textbf{variance reduction} techniques.}
+	\end{itemize}
+\ressubheading{Knolls Atomic Power Laboratory: Transport Methods}{Niskayuna,
+NY}{Intern}{Summer 2011}
+	\begin{itemize}
+	\resitem{Self-guided benchmarking of deterministic transport code in early development stages in Nuclear Data and Methods Unit}
+	\resitem{Gained a basic understanding of deterministic transport physics and numerical methods}
+	\end{itemize}
+\ressubheading{Knolls Atomic Power Laboratory: Spent Fuel Analysis}{Niskayuna,
+NY}{Intern}{Summer 2010}
+\begin{itemize}	
+	\resitem{Spent Fuel Analysis Unit.  Interacted with requestors to understand
+scope and objective of project. Learned how to use in-house Monte Carlo code, similar
+to MCNP, to develop computer models}
+	\resitem{Used the models to study fundamental effects on reactivity and tied
+basic principles of nuclear engineering to practical laboratory applications.
+Self-initiated side-studies to understand unique conditions found during reactivity
+studies}
+	\resitem{Documented work in technical reports and provided a clear and organized
+presentation to reactor physics community}
+\end{itemize}
+\ressubheading{Kansas State University: Standoff Bomb Detection Group}{Manhattan,
+KS}{Undergraduate Researcher}{06/2009--05/2011}
+\begin{itemize}
+	\resitem{Project Goal was to build a prototype device for detecting improvised
+explosives from a safe distance using backscattered radiation}
+	\resitem{Performed \textbf{MCNP5} modeling of experiments for graduate students, creating
+scripts to automate the making of input files. Performed neutron and photon backscatter
+experiments, gamma ray spectroscopy, troubleshooting integration
+software}
+\end{itemize}
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Publications and Conference Presentations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\refname{\vspace{-0.457in}}
+\bibliographystyle{plainyr-rev}
+\bibliography{references}
+\nocite{*}
+
+
+
+
+
+\end{document}

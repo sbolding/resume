@@ -18,4 +18,3 @@ Ubuntu requirements:
 ```bash
 $ sudo apt-get install texlive texlive-latex-extra
 ```
-# resume
