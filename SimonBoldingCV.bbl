@@ -1,28 +1,42 @@
 \begin{thebibliography}{1}
 
+\bibitem{nsemnc}
+S.R. Bolding, M.~Cleveland, and J.E. Morel.
+\newblock {A High-Order Low-Order Algorithm with Exponentially-Convergent Monte
+  Carlo for Thermal Radiative Transfer}.
+\newblock {\em Nuclear Science \& Engineering: M\&C 2015 Special Issue}, 2016.
+\newblock Submitted.
+
+\bibitem{multimat}
+Simon~R. Bolding, Joshua~E. Hansel, and Jim~E. Morel.
+\newblock Second-order discretization in space and time for grey s$_2$
+  radiation-hydrodynamics.
+\newblock Wurzburg, Germany, September 2015. International Conference on
+  Numerical Methods for Multi-Material Fluid Flow (MULTIMAT).
+
 \bibitem{mnc2015}
 S.R. Bolding, M.~Cleveland, and J.E. Morel.
 \newblock {A High-Order Low-Order Algorithm with Exponentially-Convergent Monte
   Carlo for Thermal Radiative Transfer}.
-\newblock M\&C, {2015}.
+\newblock M\&C, 2015.
 
 \bibitem{ans_2014}
 S.R. Bolding and J.E. Morel.
 \newblock {A High-Order Low-Order Algorithm with Exponentially-Convergent Monte
   Carlo for $k$-Eigenvalue problems}.
-\newblock ANS Winter Meeting, {2014}.
-
-\bibitem{ksuthesis}
-{S.R. Bolding}.
-\newblock {Design of a Neutron Spectrometer and Simulations of Multiplicity
-  Distributions with Nuclear Data Perturbations}.
-\newblock Master's thesis, {Kansas State University}, {Manhattan, KS}, {2013}.
+\newblock ANS Winter Meeting, 2014.
 
 \bibitem{nubar}
 S.R. Bolding.
 \newblock {Simulations of Multiplicity Distributions with Perturbations to
   Nuclear Data}.
 \newblock ANS Winter Meeting, 2013.
+
+\bibitem{ksuthesis}
+{S.R. Bolding}.
+\newblock {Design of a Neutron Spectrometer and Simulations of Multiplicity
+  Distributions with Nuclear Data Perturbations}.
+\newblock Master's thesis, {Kansas State University}, {Manhattan, KS}, 2013.
 
 \bibitem{ieeenss}
 B.W. Cooper, D.S. McGregor, S.L. Bellinger, S.R. Bolding, and J.K. Shultis.
