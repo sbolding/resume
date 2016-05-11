@@ -21,6 +21,10 @@
 
 
 %-----------------------------------------------------------
+%For including multiple sections of references I need 
+% to redo this using biblatex
+
+%-----------------------------------------------------------
 %Edit these values as you see fit
 
 \setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
@@ -72,7 +76,7 @@
 \begin{tabular*}{3in}{c@{\extracolsep{\fill}}r}
 \textbf{\huge Simon Bolding} \\
 \textbf{\today} \\
-Ph.D. Student at Texas A\&M University \\ simonrbolding@gmail.com 
+Ph.D. Candidate at Texas A\&M University \\ simonrbolding@gmail.com 
 \end{tabular*}
 \end{center}
 
@@ -89,7 +93,7 @@ Ph.D. Student at Texas A\&M University \\ simonrbolding@gmail.com
 		\resitem{\textbf{Department of Energy Nuclear Energy University Program Fellowship}, 3 years}
 
 		\resitem{Emphasis on hybrid deterministic-Monte Carlo transport methods with finite elements for thermal radiative transfer.  Developed in  C++ research code.}
-		\resitem{GPA: 4.0, Advisor: Jim E. Morel, Projected Graduation: Dec. 2016}
+		\resitem{Advisor: Jim E. Morel, Projected Graduation: Dec. 2016}
 
     %    \resitem{Committee: Prof. Peter Frazier (advisor), Prof. Steve Strogatz, Prof. Bart Selman, Dr. Zhong Wang}
 
@@ -102,12 +106,11 @@ Ph.D. Student at Texas A\&M University \\ simonrbolding@gmail.com
 	\begin{itemize}
 	
 		\resitem{Thesis on two applications of Monte Carlo simulations: design and proof of concept of a neutron spectrometer and validation of nuclear data with subcritical multiplicity experiments}	
-\resitem{GPA: 4.0, Advisor: Ken Shultis}
+\resitem{Advisor: Ken Shultis}
 	\end{itemize}
 	\ressubheading{\vspace{-0.31in}}{}{B.S. Mechanical Engineering}{2007--2011}
 	\begin{itemize}
 	           \resitem{Graduated Summe Cum Laude with physics minor and nuclear engineering option}
-		\resitem{GPA: 4.0}
 	\end{itemize}
 
 \end{itemize}
@@ -135,7 +138,7 @@ Ph.D. Student at Texas A\&M University \\ simonrbolding@gmail.com
 	\vspace{-2pt}
 	\begin{center}\begin{tabular*}{6.6in}{l@{\extracolsep{\fill}}r}
 		\multicolumn{2}{c}{Department of Energy Nuclear Energy University Program Fellowship \cftdotfill{\cftdotsep}2012-2015}\\
-        \multicolumn{2}{c}{ANS Graduate Scholarship (\$3 000) \cftdotfill{\cftdotsep} 2011, 2012}\\
+        \multicolumn{2}{c}{ANS Graduate Scholarship  \cftdotfill{\cftdotsep} 2011, 2012}\\
         \multicolumn{2}{c}{Outstanding Senior of KSU MNE Department Class of 2011 \cftdotfill{\cftdotsep} 2011}\\
         \multicolumn{2}{c}{Sigma Pi Sigma - Physics Honor Society  \cftdotfill{\cftdotsep} 2011}\\
         \multicolumn{2}{c}{Alpha Nu Sigma - Nuclear Engineering Honor Society  \cftdotfill{\cftdotsep} 2011}\\
@@ -151,8 +154,8 @@ Ph.D. Student at Texas A\&M University \\ simonrbolding@gmail.com
 \ressubheading{Lawrence Livermore National Laboratory: WCI Physics Div.}{Livermore, CA}{Graduate Intern}{Summer 2015}
 	\begin{itemize}
 	\resitem{Development and testing of acceleration methods for iterative Implicit Monte Carlo (IMC) method.}
-	\resitem{Implemented methods in standalone version of Kull, a projection C++ IMC code.}
-	\resitem{Minor OpenMPI parallelization}
+	\resitem{Implemented methods in standalone version of Kull, a production C++ IMC code.}
+	\resitem{Applied some OpenMPI parallelization}
 	\end{itemize}
 \ressubheading{Los Alamos National Laboratory: CCS-2}{Los Alamos, NM}{Graduate Intern}{Summer 2014}
 	\begin{itemize}
@@ -183,6 +186,7 @@ NY}{Intern}{Summer 2011}
 	\resitem{Self-guided benchmarking of deterministic transport code in early development stages in Nuclear Data and Methods Unit}
 	\resitem{Gained a basic understanding of deterministic transport physics and numerical methods}
 	\end{itemize}
+    \clearpage
 \ressubheading{Knolls Atomic Power Laboratory: Spent Fuel Analysis}{Niskayuna,
 NY}{Intern}{Summer 2010}
 \begin{itemize}	
@@ -211,13 +215,11 @@ software}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Publications and Conference Presentations}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Journal Articles and Conference Proceedings}
 \renewcommand\refname{\vspace{-0.457in}}
 \bibliographystyle{plainyr-rev}
 \bibliography{references}
 \nocite{*}
-
 
 
 

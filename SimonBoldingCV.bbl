@@ -5,12 +5,12 @@ S.R. Bolding, M.~Cleveland, and J.E. Morel.
 \newblock {A High-Order Low-Order Algorithm with Exponentially-Convergent Monte
   Carlo for Thermal Radiative Transfer}.
 \newblock {\em Nuclear Science \& Engineering: M\&C 2015 Special Issue}, 2016.
-\newblock Submitted.
+\newblock Accepted.
 
 \bibitem{multimat}
 Simon~R. Bolding, Joshua~E. Hansel, and Jim~E. Morel.
-\newblock Second-order discretization in space and time for grey s$_2$
-  radiation-hydrodynamics.
+\newblock {Second-Order Discretization in Space and Time for Grey S$_2$
+  Radiation-Hydrodynamics}.
 \newblock Wurzburg, Germany, September 2015. International Conference on
   Numerical Methods for Multi-Material Fluid Flow (MULTIMAT).
 

@@ -24,7 +24,7 @@
     title = "{A High-Order Low-Order Algorithm with Exponentially-Convergent Monte
                Carlo for Thermal Radiative Transfer}",
     journal = "Nuclear Science \& Engineering: M\&C 2015 Special Issue",
-    note = "Submitted",
+    note = "Accepted",
     year = "2016"
 }
 
@@ -40,8 +40,8 @@
 
 @conference{multimat,
     author = "Simon R. Bolding and Joshua E. Hansel and Jim E. Morel",
-    title = "Second-Order Discretization in Space and Time for Grey S$_2$ Radiation-Hydrodynamics"
-    organization = "International Conference on Numerical Methods for Multi-Material Fluid Flow (MULTIMAT)" 
+    title = "{Second-Order Discretization in Space and Time for Grey S$_2$        Radiation-Hydrodynamics}",
+    organization = "International Conference on Numerical Methods for Multi-Material Fluid Flow (MULTIMAT)" ,
     address = "Wurzburg, Germany",
     year = "2015",
     month = "September"

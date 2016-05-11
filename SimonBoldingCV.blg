@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: SimonBoldingCV.aux
 The style file: plainyr-rev.bst
@@ -7,7 +7,7 @@ Warning--empty booktitle in multimat
 Warning--empty note in nelson
 You've used 9 entries,
             2525 wiz_defined-function locations,
-            623 strings with 6031 characters,
+            623 strings with 6032 characters,
 and the built_in function-call counts, 4049 in all, are:
 = -- 548
 > -- 165
