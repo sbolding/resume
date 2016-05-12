@@ -55,7 +55,8 @@
 \newcommand{\resheading}[1]{\vspace{8pt}
   \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
     \begin{shaded}
-\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large
+    \hspace{0.01in}#1} \vphantom{p\^{E}}}}}}
     \end{shaded}
   }\vspace{-5pt}
 }
@@ -90,10 +91,11 @@ Ph.D. Candidate at Texas A\&M University \\ simonrbolding@gmail.com
 
 	\begin{itemize}
 
-		\resitem{\textbf{Department of Energy Nuclear Energy University Program Fellowship}, 3 years}
+        \resitem{Projected Defense Date, September 2016}
+		\resitem{\textbf{DOE Nuclear Energy University Program Fellowship}, 3 years}
 
 		\resitem{Emphasis on hybrid deterministic-Monte Carlo transport methods with finite elements for thermal radiative transfer.  Developed in  C++ research code.}
-		\resitem{GPA: 4.0/4.0, Advisor: Jim E. Morel, Projected Graduation: Dec 2016}
+		\resitem{GPA: 4.0/4.0, Advisor: Jim E. Morel, Expected Graduation: December 2016}
 
     %    \resitem{Committee: Prof. Peter Frazier (advisor), Prof. Steve Strogatz, Prof. Bart Selman, Dr. Zhong Wang}
 
@@ -109,9 +111,10 @@ Ph.D. Candidate at Texas A\&M University \\ simonrbolding@gmail.com
         proof of concept of a neutron spectrometer and validation of nuclear data with subcritical multiplicity experiments}	
 \resitem{GPA: 4.0/4.0, Advisor: Ken Shultis}
 	\end{itemize}
-	\ressubheading{\vspace{-0.31in}}{}{B.S. Mechanical Engineering}{2007--2011}
+	\ressubheading{\vspace{-0.31in}}{}{B.S. Mechanical Engineering with a Nuclear
+    Engineering Option}{2007--2011}
 	\begin{itemize}
-	           \resitem{Graduated Summe Cum Laude with physics minor and nuclear engineering option}
+	           \resitem{Graduated Summe Cum Laude with a physics minor}
                \resitem{GPA: 4.0/4.0}
 	\end{itemize}
 
@@ -217,7 +220,7 @@ software}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Journal Articles and Conference Proceedings}
+\resheading{Publications}
 \renewcommand\refname{\vspace{-0.457in}}
 \bibliographystyle{plainyr-rev}
 \bibliography{references}
