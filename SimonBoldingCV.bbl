@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{nsemnc}
 S.R. Bolding, M.~Cleveland, and J.E. Morel.
@@ -6,6 +6,13 @@ S.R. Bolding, M.~Cleveland, and J.E. Morel.
   Carlo for Thermal Radiative Transfer}.
 \newblock {\em Nuclear Science \& Engineering: M\&C 2015 Special Issue}, 2016.
 \newblock Accepted.
+
+\bibitem{radhydro_jcp}
+S.R. Bolding, J.~Hansel, J.D. Edwards, R.B. Lowrie, and J.E. Morel.
+\newblock Second-order discretization in space and time for
+  radiation-hydrodynamics.
+\newblock {\em Journal of Computational Physics}, 2016.
+\newblock Submitted.
 
 \bibitem{multimat}
 Simon~R. Bolding, Joshua~E. Hansel, and Jim~E. Morel.
@@ -27,7 +34,7 @@ S.R. Bolding and J.E. Morel.
 \newblock ANS Winter Meeting, 2014.
 
 \bibitem{nubar}
-S.R. Bolding.
+S.R. Bolding and C.J. Solomon.
 \newblock {Simulations of Multiplicity Distributions with Perturbations to
   Nuclear Data}.
 \newblock ANS Winter Meeting, 2013.
